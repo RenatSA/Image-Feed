@@ -18,6 +18,7 @@
 		8B9E033D2B2B26E200282533 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E033C2B2B26E200282533 /* SingleImageViewController.swift */; };
 		8BE4AEBC2B55324700BC6B9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AEBB2B55324700BC6B9C /* Constants.swift */; };
 		8BE4AEBF2B553E4400BC6B9C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AEBE2B553E4400BC6B9C /* AuthViewController.swift */; };
+		8BE4AEC12B55425100BC6B9C /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AEC02B55425100BC6B9C /* WebViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		8B9E033C2B2B26E200282533 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		8BE4AEBB2B55324700BC6B9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8BE4AEBE2B553E4400BC6B9C /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		8BE4AEC02B55425100BC6B9C /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				8BE4AEBE2B553E4400BC6B9C /* AuthViewController.swift */,
+				8BE4AEC02B55425100BC6B9C /* WebViewViewController.swift */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				8BE4AEBF2B553E4400BC6B9C /* AuthViewController.swift in Sources */,
 				8BE4AEBC2B55324700BC6B9C /* Constants.swift in Sources */,
 				8B9E033D2B2B26E200282533 /* SingleImageViewController.swift in Sources */,
+				8BE4AEC12B55425100BC6B9C /* WebViewViewController.swift in Sources */,
 				7D3DFB1528DDF696005A13F3 /* ImagesListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
