@@ -17,6 +17,7 @@
 		8B5D87842B2A3DEB002E009B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D87832B2A3DEB002E009B /* ProfileViewController.swift */; };
 		8B9E033D2B2B26E200282533 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E033C2B2B26E200282533 /* SingleImageViewController.swift */; };
 		8BE4AEBC2B55324700BC6B9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AEBB2B55324700BC6B9C /* Constants.swift */; };
+		8BE4AEBF2B553E4400BC6B9C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4AEBE2B553E4400BC6B9C /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8B5D87832B2A3DEB002E009B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8B9E033C2B2B26E200282533 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		8BE4AEBB2B55324700BC6B9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8BE4AEBE2B553E4400BC6B9C /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		7D9CFA3628DDEE7F00D971A7 = {
 			isa = PBXGroup;
 			children = (
+				8BE4AEBD2B553E2500BC6B9C /* Auth */,
 				8B9E033B2B2B26BB00282533 /* SingleImageViewController */,
 				8B5D87822B2A3DC8002E009B /* Profile */,
 				7D9CFA4128DDEE7F00D971A7 /* Image Feed */,
@@ -103,6 +106,14 @@
 			path = SingleImageViewController;
 			sourceTree = "<group>";
 		};
+		8BE4AEBD2B553E2500BC6B9C /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4AEBE2B553E4400BC6B9C /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,7 +142,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					7D9CFA3E28DDEE7F00D971A7 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -178,6 +189,7 @@
 				7D9CFA4528DDEE7F00D971A7 /* SceneDelegate.swift in Sources */,
 				8B5D87842B2A3DEB002E009B /* ProfileViewController.swift in Sources */,
 				7D3DFB1628DDF696005A13F3 /* ImagesListViewController.swift in Sources */,
+				8BE4AEBF2B553E4400BC6B9C /* AuthViewController.swift in Sources */,
 				8BE4AEBC2B55324700BC6B9C /* Constants.swift in Sources */,
 				8B9E033D2B2B26E200282533 /* SingleImageViewController.swift in Sources */,
 				7D3DFB1528DDF696005A13F3 /* ImagesListCell.swift in Sources */,
